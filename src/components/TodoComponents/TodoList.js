@@ -3,11 +3,15 @@
 
 import React, {Component} from 'react';
 
+import Todo from './Todo';
+
 class TodoList extends Component {
   render() {
+    const list = this.props.list.map(todo => <h2> {todo.item}</h2>);
+
     return (
       <div>
-        <h5>Welcome to the todo list</h5>
+        <Todo list={list} />
       </div>
     );
   }

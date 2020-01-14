@@ -5,7 +5,7 @@ import TodoList from './components/TodoComponents/TodoList';
 
 class App extends React.Component {
   state = {
-    todos: [{item: 'Take out trash'}, {item: 'Take out trash'}, {item: 'Take out trash'}]
+    todos: [{item: 'Take out trash'}, {item: 'Clean the car'}, {item: 'Do your homework'}]
   };
 
   render() {
